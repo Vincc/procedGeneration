@@ -29,14 +29,4 @@ print(1)
 
 
 cv2.imshow("dd", np.divide(np.add(worldLayer2,worldLayer1),2)*arr)
-#
-
-# print(np.divide(np.add(worldLayer2,worldLayer1),2))
-
-mlab.surf(np.divide(np.add(worldLayer2,worldLayer1),2)*arr)
-mlab.show()
-
-cv2.waitKey()
-
-
 
