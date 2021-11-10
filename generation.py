@@ -10,7 +10,7 @@ worldLayer1 = np.zeros(shape)
 worldLayer2 = np.zeros(shape)
 
 b1 = randint(0,100)
-b2 = randint(0,100)
+b2 = randint(0,100) 
 
 for i in range(shape[0]):
     for j in range(shape[1]):
@@ -29,4 +29,6 @@ print(1)
 
 
 cv2.imshow("dd", np.divide(np.add(worldLayer2,worldLayer1),2)*arr)
+
+
 
